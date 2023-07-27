@@ -1,4 +1,4 @@
 sh_binary(
   name = "test",
-  srcs = "test.sh",
+  srcs = ["test.sh"],
 )
