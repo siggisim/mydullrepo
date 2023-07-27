@@ -1,1 +1,1 @@
-gcloud projects list
+external/gcloud/gcloud projects list
