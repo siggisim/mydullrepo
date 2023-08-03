@@ -1,5 +1,5 @@
 sh_binary(
-  name = "test",
-  srcs = ["test.sh"],
-  data = ["@gcloud"]
+    name = "test",
+    srcs = ["test.sh"],
+    data = ["@gcloud"],
 )
