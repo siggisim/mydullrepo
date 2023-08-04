@@ -1,5 +1,5 @@
 actions:
-  - name: "Test all targets"
+  - name: "Deploy"
     triggers:
       push:
         branches:
@@ -8,4 +8,4 @@ actions:
         branches:
           - "*"
     bazel_commands:
-      - "run :test"
+      - "run :deploy"
