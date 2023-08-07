@@ -1,5 +1,5 @@
 actions:
-  - name: "Deploy"
+  - name: "Deploy BuildBuddy"
     triggers:
       push:
         branches:
@@ -9,3 +9,15 @@ actions:
           - "*"
     bazel_commands:
       - "run :deploy"
+  - name: "Deploy Go"
+    triggers:
+      push:
+        branches:
+          - "main"
+      pull_request:
+        branches:
+          - "*"
+    bazel_commands:
+      - "run go:configure"
+      - "run go:go_image_push"
+      - "run go:deploy"

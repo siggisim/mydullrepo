@@ -1,0 +1,1 @@
+external/gcloud/gcloud run deploy test-$RANDOM --image=gcr.io/$GCP_PROJECT/go_image:latest --port=3333 --region=us-west1 --project=$GCP_PROJECT --allow-unauthenticated
