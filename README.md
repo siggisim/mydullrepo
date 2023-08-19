@@ -13,3 +13,4 @@ Then click `deploy` below. Deploys will only work for 2 hours with this credenti
 [auto deploy](http://app.buildbuddy.dev/repo/)
 
 [local auto deploy](http://localhost:8080/repo/)
+
